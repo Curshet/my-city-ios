@@ -1,0 +1,29 @@
+# iOS
+*.ipa
+*.hmap
+*.dSYM.zip
+*.dSYM
+/build
+/buildFB
+.idea
+.accio/
+.DS_Store
+Pods/
+Podfile.lock
+Dependencies/
+Carthage/Build/
+timeline.xctimeline
+xcuserdata/
+*.xcarchive
+*.xccheckout
+*.xcscmblueprint
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
