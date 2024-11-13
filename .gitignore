@@ -21,7 +21,6 @@ xcuserdata/
 !*.xcworkspace/contents.xcworkspacedata
 **/xcshareddata/WorkspaceSettings.xcsettings
 
-
 # Fastlane
 fastlane/report.xml
 fastlane/Preview.html
