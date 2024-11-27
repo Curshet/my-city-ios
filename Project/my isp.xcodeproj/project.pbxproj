@@ -470,7 +470,6 @@
 		CEC98C972A78301600B28BBE /* AuthorizationBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC98C962A78301600B28BBE /* AuthorizationBuilderTests.swift */; };
 		CEC98C992A7B34DD00B28BBE /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC98C982A7B34DD00B28BBE /* UICollectionViewExtension.swift */; };
 		CEC98C9B2A82B5FA00B28BBE /* LocalizationManagerTextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC98C9A2A82B5FA00B28BBE /* LocalizationManagerTextExtension.swift */; };
-		CEC98CA02A82F92E00B28BBE /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = CEC98C9F2A82F92E00B28BBE /* Documentation.docc */; };
 		CECB772B2AB78BBE00290F61 /* DispatchQueueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB772A2AB78BBE00290F61 /* DispatchQueueExtension.swift */; };
 		CECB77352AB886EA00290F61 /* IntercomBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB77342AB886EA00290F61 /* IntercomBuilder.swift */; };
 		CECB77372AB8878500290F61 /* IntercomBuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB77362AB8878500290F61 /* IntercomBuilderProtocol.swift */; };
@@ -1041,7 +1040,6 @@
 		CEC98C962A78301600B28BBE /* AuthorizationBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationBuilderTests.swift; sourceTree = "<group>"; };
 		CEC98C982A7B34DD00B28BBE /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
 		CEC98C9A2A82B5FA00B28BBE /* LocalizationManagerTextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManagerTextExtension.swift; sourceTree = "<group>"; };
-		CEC98C9F2A82F92E00B28BBE /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		CECB772A2AB78BBE00290F61 /* DispatchQueueExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueExtension.swift; sourceTree = "<group>"; };
 		CECB77342AB886EA00290F61 /* IntercomBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntercomBuilder.swift; sourceTree = "<group>"; };
 		CECB77362AB8878500290F61 /* IntercomBuilderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntercomBuilderProtocol.swift; sourceTree = "<group>"; };
@@ -3641,7 +3639,6 @@
 			children = (
 				CEBA80D129D7639F00E0F3FC /* my isp */,
 				CEBA80E829D763A200E0F3FC /* UnitTesting */,
-				CEC98C9F2A82F92E00B28BBE /* Documentation.docc */,
 			);
 			sourceTree = "<group>";
 		};
@@ -4954,7 +4951,6 @@
 				CE5C99662C9C61D7007F4B8C /* AppOverlayViewProtocol.swift in Sources */,
 				CE6567422CCF1E1900637DC8 /* DisplayModels.swift in Sources */,
 				CE1AD0202C3760DE006A6E1E /* FileManagerExtension.swift in Sources */,
-				CEC98CA02A82F92E00B28BBE /* Documentation.docc in Sources */,
 				CEDAC7EA29DCD9C6009E3BD5 /* UIColorExtension.swift in Sources */,
 				CE8EAAF02C978BB400C1AFEE /* AuthorizationPhoneCodeDataCacheInfoProtocol.swift in Sources */,
 				CE1ACFEF2C2F235A006A6E1E /* AppHighlightingView.swift in Sources */,
