@@ -71,7 +71,7 @@ private extension ChatRootDataSource {
 
     func request(_ localization: LocalizationManagerLanguage) -> URLRequest? {
         let localized = localization == .russian ? "index_ru" : "index_en"
-        guard let url = bundle.url(forResource: localized, withExtension: "html", subdirectory: "jivochat") else { return nil }
+        guard let url = bundle.url(forResource: localized, withExtension: "html", subdirectory: "JivoChat") else { return nil }
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData)
         return request
     }
