@@ -1,0 +1,6 @@
+"CFBundleDisplayName" = "My City";
+"NSUserNotificationsUsageDescription" = "Don't miss any important notifications";
+"NSCameraUsageDescription" = "The camera is required to operate the intercom, scan QR codes, send photos to the support chat and edit the profile";
+"NSPhotoLibraryUsageDescription" = "The gallery is required for uploading images to the support chat and editing the profile";
+"NSMicrophoneUsageDescription" = "The microphone is required for the proper functioning of the intercom";
+"NSFaceIDUsageDescription" = "Use only a secure application login";

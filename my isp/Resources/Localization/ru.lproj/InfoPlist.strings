@@ -1,0 +1,6 @@
+"CFBundleDisplayName" = "Мой Город";
+"NSUserNotificationsUsageDescription" = "Не пропустите ни одного важного уведомления";
+"NSCameraUsageDescription" = "Камера необходима для работы домофонии, сканирования QR-кодов, отправки фотографий в чат поддержки и редактирования профиля";
+"NSPhotoLibraryUsageDescription" = "Галерея необходима для загрузки изображений в чат поддержки и редактирования профиля";
+"NSMicrophoneUsageDescription" = "Микрофон необходим для корректной работы домофонии";
+"NSFaceIDUsageDescription" = "Используйте только безопасный вход в приложение";

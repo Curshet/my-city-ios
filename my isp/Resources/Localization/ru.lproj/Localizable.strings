@@ -1,0 +1,90 @@
+// MARK: - Application
+"CANCEL" = "Отмена";
+"DONE" = "Готово";
+"DELETE" = "Удалить";
+"CONFIRM" = "Подтвердить";
+"ENTRY" = "Вход";
+"ENTER" = "Войти";
+"EXIT" = "Выход";
+"CLOSE" = "Закрыть";
+"BACK" = "Назад";
+"GO_BACK" = "Вернуться назад";
+"TRY_AGAIN" = "Повторить";
+"SETTINGS" = "Настройки";
+"ERROR" = "Ошибка";
+"SYSTEM_ERROR" = "Системная ошибка";
+"UNKNOWN_ERROR" = "Неизвестная ошибка";
+"DATA_ERROR" = "Не удалось получить данные";
+"INTERNET_ERROR" = "Отсутствует интернет";
+"CAMERA_DENIED" = "Доступ к камере отсутствует";
+
+// MARK: - Splash
+"SPLASH_AIRPLANE_MODE" = "Авиарежим";
+"SPLASH_AIRPLANE_GUIDE" = "Отключите авиарежим в настройках либо используйте Wi-Fi подключение для передачи данных";
+"SPLASH_LOST_CONNECTION" = "Ошибка соединения";
+"SPLASH_ERROR_CONNECTION" = "Не удалось установить соединение с интернетом. Попробуйте повторить попытку";
+
+// MARK: - Authorization
+"AUTHORIZATION_GREETING_HEADER" = "МОЙ\nЦИФРОВОЙ\nГОРОД";
+"AUTHORIZATION_TELEGRAM_LOGIN" = "Войти через Telegram";
+"AUTHORIZATION_OTHERWISE" = "или";
+"AUTHORIZATION_CAUTION" = "Перед входом необходимо выйти из текущего профиля";
+"AUTHORIZATION_PHONE_LOGIN" = "Войти по номеру телефона";
+"AUTHORIZATION_PHONE_INPUT" = "Введите номер телефона";
+"AUTHORIZATION_PHONE_ENTRY" = "Чтобы зарегистрироваться или войти.\nОтправим SMS с кодом подтверждения";
+"AUTHORIZATION_PHONE_EMPTY" = "Необходимо ввести номер";
+"AUTHORIZATION_PHONE_INCORRECT" = "Некорректный формат номера";
+"AUTHORIZATION_PHONE_MANUAL" = "Введите номер вручную";
+"AUTHORIZATION_SUCCESS" = "Вход выполнен успешно";
+"AUTHORIZATION_ERROR" = "Не удалось выполнить вход";
+
+// MARK: - Menu
+"MENU_CATALOG" = "Каталог";
+"MENU_PROFILE" = "Профиль";
+"MENU_CHAT" = "Чат";
+"MENU_MORE" = "Ещё";
+
+// MARK: - Profile
+"PROFILE_PHONE" = "Телефон";
+"PROFILE_PHONE_COPIED" = "Телефон скопирован";
+"PROFILE_NAME" = "Имя";
+"PROFILE_ENTER_NAME" = "Введите имя";
+"PROFILE_LOG_OUT" = "Выйти из профиля";
+"PROFILE_DELETE" = "Удалить профиль";
+"PROFILE_DELETE_SUBTITLE" = "Это действие удалит все добавленные сервисы и входы на всех устройствах с текущим номером телефона, включая привязанные карты и историю совершенных операций";
+
+// MARK: - Chat
+"CHAT_LOADING_ERROR" = "Ошибка загрузки чата";
+
+// MARK: - More
+"MORE_SUPPORT" = "Поддержка";
+"MORE_APP_SHARING" = "Поделиться приложением";
+"MORE_APP_VERSION" = "Версия приложения";
+"MORE_DEVICE" = "Устройство";
+"MORE_APPLICATION" = "Приложение";
+"MORE_VERSION" = "Версия";
+"MORE_INFO_COPIED" = "Информация скопирована";
+"MORE_PHONE_QUESTION" = "Для решения вопросов свяжитесь с нами по круглосуточному номеру";
+"MORE_MESSENGERS_QUESTION" = "либо через мессенджеры \nc 9:00 до 21:00";
+"MORE_BIOMETRICS" = "Биометрия";
+"MORE_BIOMETRICS_SUBTITLE" = "Вход с помощью";
+"MORE_PASSWORD" = "Код доступа";
+"MORE_PASSWORD_SUBTITLE" = "Вход с помощью пароля";
+"MORE_RECOMMEND_INSTALLING" = "Привет!\n\nРекомендую установить приложение \"Мой Город\". С ним просто контролировать баланс, пополнять счёт, управлять услугами, получать онлайн-консультацию и первым узнавать о выгодных предложениях";
+
+// MARK: - Intercom
+"INTERCOM_CONNECTION" = "Соединение";
+"INTERCOM_IGNORE" = "Игнорировать";
+"INTERCOM_REJECT" = "Отклонить";
+"INTERCOM_CALL" = "Звонок в домофон";
+"INTERCOM_CALL_PROCESS" = "Разговор";
+"INTERCOM_CALL_INCOMING" = "Входящий звонок";
+"INTERCOM_CALL_ENDED" = "Звонок завершён";
+"INTERCOM_CALL_MUTED" = "Исходящего звука в этом звонке не будет. Чтобы он появился в следующих звонках, предоставьте доступ к микрофону в настройках";
+"INTERCOM_MICROPHONE_DENIED" = "Нет доступа к микрофону";
+
+// MARK: - Common
+"PHONE_CODE_CHECK" = "Проверка";
+"PHONE_CODE_ENTER" = "Введите код из SMS";
+"PHONE_CODE_REPEAT" = "Отправить повторно через";
+"PHONE_CODE_SEND" = "Отправить код";

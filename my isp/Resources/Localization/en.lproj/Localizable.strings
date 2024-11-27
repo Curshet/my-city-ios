@@ -1,0 +1,90 @@
+// MARK: - Application
+"CANCEL" = "Cancel";
+"DONE" = "Done";
+"DELETE" = "Delete";
+"CONFIRM" = "Confirm";
+"ENTRY" = "Entry";
+"ENTER" = "Enter";
+"EXIT" = "Exit";
+"CLOSE" = "Close";
+"BACK" = "Back";
+"GO_BACK" = "Go back";
+"TRY_AGAIN" = "Try again";
+"SETTINGS" = "Settings";
+"ERROR" = "Error";
+"SYSTEM_ERROR" = "System error";
+"UNKNOWN_ERROR" = "Unknown error";
+"DATA_ERROR" = "Data receiving error";
+"INTERNET_ERROR" = "No internet";
+"CAMERA_DENIED" = "Camera access denied";
+
+// MARK: - Splash
+"SPLASH_AIRPLANE_MODE" = "Airplane mode";
+"SPLASH_AIRPLANE_GUIDE" = "Turn off airplane mode in settings or use Wi-Fi connection";
+"SPLASH_LOST_CONNECTION" = "Connection error";
+"SPLASH_ERROR_CONNECTION" = "Failed to establish an internet connection. Please, try again";
+
+// MARK: - Authorization
+"AUTHORIZATION_GREETING_HEADER" = "MY\nDIGITAL\nCITY";
+"AUTHORIZATION_TELEGRAM_LOGIN" = "Login with Telegram";
+"AUTHORIZATION_OTHERWISE" = "or";
+"AUTHORIZATION_CAUTION" = "Before logging in, you need to log out";
+"AUTHORIZATION_PHONE_LOGIN" = "Login with phone number";
+"AUTHORIZATION_PHONE_INPUT" = "Input the phone number";
+"AUTHORIZATION_PHONE_ENTRY" = "For registration or entry.\nWe will send a confirmation code through SMS";
+"AUTHORIZATION_PHONE_EMPTY" = "You must enter a number";
+"AUTHORIZATION_PHONE_INCORRECT" = "Incorrect phone number";
+"AUTHORIZATION_PHONE_MANUAL" = "Enter the number manually";
+"AUTHORIZATION_SUCCESS" = "Login successfully done";
+"AUTHORIZATION_ERROR" = "Failed to sign in";
+
+// MARK: - Menu
+"MENU_CATALOG" = "Catalog";
+"MENU_PROFILE" = "Profile";
+"MENU_CHAT" = "Chat";
+"MENU_MORE" = "More";
+
+// MARK: - Profile
+"PROFILE_PHONE" = "Phone";
+"PROFILE_PHONE_COPIED" = "Phone copied";
+"PROFILE_NAME" = "Name";
+"PROFILE_ENTER_NAME" = "Enter name";
+"PROFILE_LOG_OUT" = "Log out";
+"PROFILE_DELETE" = "Delete profile";
+"PROFILE_DELETE_SUBTITLE" = "This action will delete all added services and logins on all devices with the current phone number, including linked cards and transaction history";
+
+// MARK: - Chat
+"CHAT_LOADING_ERROR" = "Error of loading chat";
+
+// MARK: - More
+"MORE_SUPPORT" = "Support";
+"MORE_APP_SHARING" = "Share application";
+"MORE_APP_VERSION" = "Application version";
+"MORE_DEVICE" = "Device";
+"MORE_APPLICATION" = "Application";
+"MORE_VERSION" = "Version";
+"MORE_INFO_COPIED" = "Information was copied";
+"MORE_PHONE_QUESTION" = "For emergency calls, please contact us";
+"MORE_MESSENGERS_QUESTION" = "or via messangers \nfrom 9:00 a.m. to 9:00 p.m.";
+"MORE_BIOMETRICS" = "Biometrics";
+"MORE_BIOMETRICS_SUBTITLE" = "Login with";
+"MORE_PASSWORD" = "Access code";
+"MORE_PASSWORD_SUBTITLE" = "Login with password";
+"MORE_RECOMMEND_INSTALLING_APP" = "Hello!\n\nI recommend installing the app \"My City\". With it just control the balance, fund your account, manage services, get online advice and be the first to know about profitable offers";
+
+// MARK: - Intercom
+"INTERCOM_CONNECTION" = "Connection";
+"INTERCOM_IGNORE" = "Ignore";
+"INTERCOM_REJECT" = "Reject";
+"INTERCOM_CALL" = "Call to intercom";
+"INTERCOM_CALL_PROCESS" = "Conversation";
+"INTERCOM_CALL_INCOMING" = "Incoming call";
+"INTERCOM_CALL_ENDED" = "Call ended";
+"INTERCOM_CALL_MUTED" = "There will be no outgoing sound in this call. To make it appear in future calls, please allow microphone access in the settings";
+"INTERCOM_MICROPHONE_DENIED" = "Microphone access denied";
+
+// MARK: - Common
+"PHONE_CODE_CHECK" = "Verification";
+"PHONE_CODE_ENTER" = "Enter the SMS code";
+"PHONE_CODE_REPEAT" = "Send code again after";
+"PHONE_CODE_SEND" = "Send code";
