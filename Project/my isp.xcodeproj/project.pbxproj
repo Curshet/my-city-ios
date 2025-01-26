@@ -43,7 +43,6 @@
 		7590B2742C76042900880BB5 /* ProfileRootViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7590B2732C76042900880BB5 /* ProfileRootViewProtocol.swift */; };
 		7590B2762C76044C00880BB5 /* ProfileRootHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7590B2752C76044C00880BB5 /* ProfileRootHeaderView.swift */; };
 		7590B2782C76045100880BB5 /* ProfileRootHeaderViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7590B2772C76045100880BB5 /* ProfileRootHeaderViewProtocol.swift */; };
-		CE0268352CF6A1A200778736 /* JivoChat in Resources */ = {isa = PBXBuildFile; fileRef = CE0268342CF6A1A200778736 /* JivoChat */; };
 		CE0707542AC5D2270057D907 /* CatalogRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0707532AC5D2270057D907 /* CatalogRouter.swift */; };
 		CE0707562AC5D2400057D907 /* CatalogRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0707552AC5D2400057D907 /* CatalogRouterProtocol.swift */; };
 		CE0A05782C4ECE2F0098F33F /* AuthorizationPhoneRootHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0A05772C4ECE2F0098F33F /* AuthorizationPhoneRootHeaderView.swift */; };
@@ -352,6 +351,7 @@
 		CE9C94D12AFC290C000A4A1A /* CatalogBuilderRoutingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C94D02AFC290C000A4A1A /* CatalogBuilderRoutingProtocol.swift */; };
 		CE9C94D32AFC29CE000A4A1A /* ProfileBuilderRoutingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C94D22AFC29CE000A4A1A /* ProfileBuilderRoutingProtocol.swift */; };
 		CE9C94E32AFD1BFA000A4A1A /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = CE9C94E22AFD1BFA000A4A1A /* Swinject */; };
+		CE9DAC252D438D9300550F23 /* JivoChat in Resources */ = {isa = PBXBuildFile; fileRef = CE9DAC242D438D9300550F23 /* JivoChat */; };
 		CEA2CED52B2098E200A759CD /* ProfileRootDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2CED42B2098E200A759CD /* ProfileRootDataSourceProtocol.swift */; };
 		CEA2CED72B20994100A759CD /* ProfileRootViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2CED62B20994100A759CD /* ProfileRootViewModelProtocol.swift */; };
 		CEA2CED92B20A28800A759CD /* ProfileRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2CED82B20A28800A759CD /* ProfileRootViewController.swift */; };
@@ -622,7 +622,6 @@
 		7590B2732C76042900880BB5 /* ProfileRootViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRootViewProtocol.swift; sourceTree = "<group>"; };
 		7590B2752C76044C00880BB5 /* ProfileRootHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRootHeaderView.swift; sourceTree = "<group>"; };
 		7590B2772C76045100880BB5 /* ProfileRootHeaderViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRootHeaderViewProtocol.swift; sourceTree = "<group>"; };
-		CE0268342CF6A1A200778736 /* JivoChat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JivoChat; sourceTree = SOURCE_ROOT; };
 		CE0707532AC5D2270057D907 /* CatalogRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogRouter.swift; sourceTree = "<group>"; };
 		CE0707552AC5D2400057D907 /* CatalogRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogRouterProtocol.swift; sourceTree = "<group>"; };
 		CE0A05772C4ECE2F0098F33F /* AuthorizationPhoneRootHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationPhoneRootHeaderView.swift; sourceTree = "<group>"; };
@@ -916,6 +915,7 @@
 		CE9C94CE2AF441AA000A4A1A /* MenuBuilderRoutingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBuilderRoutingProtocol.swift; sourceTree = "<group>"; };
 		CE9C94D02AFC290C000A4A1A /* CatalogBuilderRoutingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogBuilderRoutingProtocol.swift; sourceTree = "<group>"; };
 		CE9C94D22AFC29CE000A4A1A /* ProfileBuilderRoutingProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileBuilderRoutingProtocol.swift; sourceTree = "<group>"; };
+		CE9DAC242D438D9300550F23 /* JivoChat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = JivoChat; sourceTree = "<group>"; };
 		CEA2CED42B2098E200A759CD /* ProfileRootDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRootDataSourceProtocol.swift; sourceTree = "<group>"; };
 		CEA2CED62B20994100A759CD /* ProfileRootViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRootViewModelProtocol.swift; sourceTree = "<group>"; };
 		CEA2CED82B20A28800A759CD /* ProfileRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRootViewController.swift; sourceTree = "<group>"; };
@@ -1372,7 +1372,7 @@
 		CE02681B2CF69F1A00778736 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CE0268342CF6A1A200778736 /* JivoChat */,
+				CE9DAC242D438D9300550F23 /* JivoChat */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -4688,7 +4688,7 @@
 				CE832C0D2A4211A200385303 /* SourceSansPro-Regular.ttf in Resources */,
 				CE832C0E2A4211A200385303 /* SourceSansPro-SemiBold.ttf in Resources */,
 				CE31B7BB2BA9A341008752B6 /* GoogleService-Info.plist in Resources */,
-				CE0268352CF6A1A200778736 /* JivoChat in Resources */,
+				CE9DAC252D438D9300550F23 /* JivoChat in Resources */,
 				CEBB29F529D79641005B5641 /* Hold.mkv in Resources */,
 				CE31CE7629EDE0C300F8D82A /* InfoPlist.strings in Resources */,
 				CEBB2A1529D79ECE005B5641 /* linphonerc in Resources */,

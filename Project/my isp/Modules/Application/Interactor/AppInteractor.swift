@@ -1,4 +1,4 @@
-import Foundation
+import UIKit
 import Combine
 
 final class AppInteractor: NSObject, AppInteractorProtocol {
@@ -128,7 +128,7 @@ fileprivate enum AppInteractorMessage {
 
 // MARK: - AppInteractorInternalEvent
 enum AppInteractorInternalEvent {
-    case start
+    case start([UIApplication.LaunchOptionsKey: Any]?)
     case fatalError(AppInteractorInternalError)
     case activity(AppInteractorUserActivity)
     case token(AppUserInfoType)

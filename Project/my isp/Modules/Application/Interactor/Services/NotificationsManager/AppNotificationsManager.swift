@@ -80,10 +80,12 @@ private extension AppNotificationsManager {
                 logger.console(event: .error(info: AppNotificationsManagerMessage.apnsError + String(error)))
             
             case .pushNotificationWillPresent(let notification):
-                logger.console(event: .pushNotification(info: AppNotificationsManagerMessage.willPresentPush + "📍 \(String(notification)) ✂️"))
+                let userInfo = notification.request.content.userInfo
+                logger.console(event: .pushNotification(info: AppNotificationsManagerMessage.willPresentPush + "📍 \(userInfo) ✂️"))
             
-            case .pushNotificationDidReceive(let notification):
-                logger.console(event: .pushNotification(info: AppNotificationsManagerMessage.didReceivePush + "📍 \(String(notification)) ✂️"))
+            case .pushNotificationDidReceive(let response):
+                let userInfo = response.notification.request.content.userInfo
+                logger.console(event: .pushNotification(info: AppNotificationsManagerMessage.didReceivePush + "📍 \(userInfo) ✂️"))
                 externalPublisher.send(.pushNotification)
         }
     }
@@ -185,8 +187,8 @@ enum AppNotificationsManagerInternalEvent {
     case registerForNotifications
     case requestFirebaseToken
     case apnsError(Error)
-    case pushNotificationWillPresent([AnyHashable : Any])
-    case pushNotificationDidReceive([AnyHashable : Any])
+    case pushNotificationWillPresent(UNNotification)
+    case pushNotificationDidReceive(UNNotificationResponse)
 }
 
 // MARK: - AppUserNotificationType
