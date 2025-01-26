@@ -1,5 +1,5 @@
-import Foundation
+import UIKit
 
 protocol AppCoordinatorProtocol {
-    func start() -> Bool
+    func start(_ options: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
 }

@@ -48,8 +48,8 @@ private extension KeyboardManager {
     
     func willShowAction(_ notification: Notification) {
         let userInfo = notification.userInfo
-        let frame = userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue
-        let keyboardFrame = frame?.cgRectValue ?? .zero
+        let value = userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? NSValue
+        let keyboardFrame = value?.cgRectValue ?? .zero
         externalPublisher.send(.willShow(keyboardFrame))
     }
     

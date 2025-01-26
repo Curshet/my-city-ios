@@ -1,4 +1,4 @@
-import Foundation
+import UIKit
 import Combine
 
 final class AppCoordinator: AppCoordinatorProtocol {
@@ -16,8 +16,8 @@ final class AppCoordinator: AppCoordinatorProtocol {
         setupObservers()
     }
     
-    func start() -> Bool {
-        startSplashModule()
+    func start(_ options: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        startSplashModule(options)
         return true
     }
     
@@ -42,14 +42,14 @@ private extension AppCoordinator {
         }
     }
     
-    func startSplashModule() {
+    func startSplashModule(_ options: [UIApplication.LaunchOptionsKey: Any]?) {
         guard let coordinator = builder.splashCoordinator else {
             interactor.internalEventPublisher.send(.fatalError(.splashCoordinator))
             return
         }
         
         coordinator.externalEventPublisher.sink { [weak self] in
-            self?.interactor.internalEventPublisher.send(.start)
+            self?.interactor.internalEventPublisher.send(.start(options))
         }.store(in: &subscriptions)
         
         coordinators.removeAll()

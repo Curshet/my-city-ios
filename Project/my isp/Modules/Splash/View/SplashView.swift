@@ -59,7 +59,6 @@ private extension SplashView {
     
     func setupLayout(_ data: SplashViewData) {
         imageView.image = data.image
-        imageView.backgroundColor = data.layout.imageView.backgroundColor
         backgroundColor = data.layout.backgroundColor
     }
     
@@ -92,7 +91,6 @@ struct SplashViewLayout {
 // MARK: - SplashImageViewLayout
 struct SplashImageViewLayout {
     let size = CGSize(width: 100, height: 100)
-    let backgroundColor = UIColor.clear
     let duration = 2.5
     let transform = CGAffineTransform(scaleX: 1.11, y: 1.11)
 }
