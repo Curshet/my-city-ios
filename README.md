@@ -7,7 +7,7 @@ It’s a mobile (iOS) application for managing service accounts.
 
 # Navigation
 
-* [Documentation](https://git.sevstar.net/ssdev/cabinet-new/-/tree/dev-mobile/mobile/ios/Release/Documentation.docc)
+* [Documentation](https://github.com/Curshet/my-city-ios/tree/main/Project/Documentation.docc)
 
 * [Swagger]()
   
