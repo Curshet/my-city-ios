@@ -83,7 +83,6 @@
 		CE31B7B32BA72717008752B6 /* CatalogRootNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31B7B22BA72717008752B6 /* CatalogRootNetworkManager.swift */; };
 		CE31B7B52BA72721008752B6 /* CatalogRootNetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31B7B42BA72721008752B6 /* CatalogRootNetworkManagerProtocol.swift */; };
 		CE31B7B82BA727AA008752B6 /* CatalogRootModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31B7B72BA727AA008752B6 /* CatalogRootModels.swift */; };
-		CE31B7BB2BA9A341008752B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE31B7BA2BA9A341008752B6 /* GoogleService-Info.plist */; };
 		CE31CE4329E85E7E00F8D82A /* SplashCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31CE4229E85E7D00F8D82A /* SplashCoordinator.swift */; };
 		CE31CE4529E85E8A00F8D82A /* SplashCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31CE4429E85E8A00F8D82A /* SplashCoordinatorProtocol.swift */; };
 		CE31CE4729E8676B00F8D82A /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE31CE4629E8676B00F8D82A /* SplashRouter.swift */; };
@@ -662,7 +661,6 @@
 		CE31B7B22BA72717008752B6 /* CatalogRootNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogRootNetworkManager.swift; sourceTree = "<group>"; };
 		CE31B7B42BA72721008752B6 /* CatalogRootNetworkManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogRootNetworkManagerProtocol.swift; sourceTree = "<group>"; };
 		CE31B7B72BA727AA008752B6 /* CatalogRootModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogRootModels.swift; sourceTree = "<group>"; };
-		CE31B7BA2BA9A341008752B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CE31CE4229E85E7D00F8D82A /* SplashCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashCoordinator.swift; sourceTree = "<group>"; };
 		CE31CE4429E85E8A00F8D82A /* SplashCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashCoordinatorProtocol.swift; sourceTree = "<group>"; };
 		CE31CE4629E8676B00F8D82A /* SplashRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRouter.swift; sourceTree = "<group>"; };
@@ -3656,7 +3654,6 @@
 			children = (
 				CEBA810429D7661200E0F3FC /* my isp.entitlements */,
 				CEBA80E029D763A200E0F3FC /* Info.plist */,
-				CE31B7BA2BA9A341008752B6 /* GoogleService-Info.plist */,
 				CEF47D152C10BBBC007B5771 /* PrivacyInfo.xcprivacy */,
 				CEBB29E829D78DA6005B5641 /* Modules */,
 				CEBB29E729D78D63005B5641 /* Services */,
@@ -4687,7 +4684,6 @@
 			files = (
 				CE832C0D2A4211A200385303 /* SourceSansPro-Regular.ttf in Resources */,
 				CE832C0E2A4211A200385303 /* SourceSansPro-SemiBold.ttf in Resources */,
-				CE31B7BB2BA9A341008752B6 /* GoogleService-Info.plist in Resources */,
 				CE9DAC252D438D9300550F23 /* JivoChat in Resources */,
 				CEBB29F529D79641005B5641 /* Hold.mkv in Resources */,
 				CE31CE7629EDE0C300F8D82A /* InfoPlist.strings in Resources */,

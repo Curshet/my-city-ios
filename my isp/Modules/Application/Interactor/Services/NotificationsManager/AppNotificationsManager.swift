@@ -8,7 +8,7 @@ final class AppNotificationsManager: NSObject, AppNotificationsManagerControlPro
     let externalEventPublisher: AnyPublisher<AppNotificationsManagerExternalEvent, Never>
     
     private weak var keyWindow: UIWindow?
-    private let firebase: Messaging
+    private let firebase: Messaging?
     private let application: ApplicationProtocol
     private let notificationCenter: NotificationCenterProtocol
     private let userNotificationCenter: UserNotificationCenterProtocol
@@ -16,7 +16,7 @@ final class AppNotificationsManager: NSObject, AppNotificationsManagerControlPro
     private let externalPublisher: PassthroughSubject<AppNotificationsManagerExternalEvent, Never>
     private var subscriptions: Set<AnyCancellable>
     
-    init(keyWindow: UIWindow, firebase: Messaging, application: ApplicationProtocol, notificationCenter: NotificationCenterProtocol, userNotificationCenter: UserNotificationCenterProtocol) {
+    init(keyWindow: UIWindow, firebase: Messaging?, application: ApplicationProtocol, notificationCenter: NotificationCenterProtocol, userNotificationCenter: UserNotificationCenterProtocol) {
         self.keyWindow = keyWindow
         self.firebase = firebase
         self.application = application
@@ -91,7 +91,7 @@ private extension AppNotificationsManager {
     }
     
     func requestFirebaseToken() {
-        firebase.token { [weak self] in
+        firebase?.token { [weak self] in
             self?.firebaseTokenHandler($0, $1)
         }
     }

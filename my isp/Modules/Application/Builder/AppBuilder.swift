@@ -208,7 +208,7 @@ extension AppBuilder {
         return injector.resolve(from: .application, type: AppUserManager.self)
     }
     
-    func notificationsManager(_ keyWindow: UIWindow, _ firebase: Messaging, _ application: ApplicationProtocol, _ notificationCenter: NotificationCenterProtocol,_ userNotificationCenter: UserNotificationCenterProtocol) -> AppNotificationsManager? {
+    func notificationsManager(_ keyWindow: UIWindow, _ firebase: Messaging?, _ application: ApplicationProtocol, _ notificationCenter: NotificationCenterProtocol,_ userNotificationCenter: UserNotificationCenterProtocol) -> AppNotificationsManager? {
         let notificationManager = AppNotificationsManager(keyWindow: keyWindow, firebase: firebase, application: application, notificationCenter: notificationCenter, userNotificationCenter: userNotificationCenter)
         
         injector.register(in: .application, type: AppNotificationsManager.self) { _ in
@@ -295,10 +295,6 @@ extension AppBuilder {
             return error(of: UIApplicationDelegate.self)
         }
         
-        guard let firebase = firebaseMessaging(applicationDelegate) else {
-            return error(of: Messaging.self)
-        }
-        
         guard let notificationCenter = injector.resolve(from: .application, type: NotificationCenterProtocol.self) else {
             return error(of: NotificationCenterProtocol.self)
         }
@@ -323,7 +319,7 @@ extension AppBuilder {
             return error(of: ConnectionManagerProtocol.self)
         }
         
-        guard let notificationsManager = notificationsManager(keyWindow, firebase, application, notificationCenter, userNotificationCenter) else {
+        guard let notificationsManager = notificationsManager(keyWindow, nil, application, notificationCenter, userNotificationCenter) else {
             return error(of: AppNotificationsManager.self)
         }
         
